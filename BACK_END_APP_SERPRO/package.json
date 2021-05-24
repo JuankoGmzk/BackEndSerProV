@@ -1,0 +1,24 @@
+{
+    "name": "saberpro",
+    "version": "1.0.0",
+    "description": "API Listar Tests",
+    "main": "app.js",
+    "private": "true",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/APPSERPRO/BACK_END_APP_SERPRO.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "Cristian Wilches",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "helmet": "^4.1.1",
+        "mongodb": "^3.6.1",
+        "mongoose": "^5.10.5"
+    }
+}
